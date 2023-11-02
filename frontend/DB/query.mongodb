@@ -1,0 +1,22 @@
+/* eslint-disable no-undef */
+use("dbServientrega");
+
+db.createCollection("clientes", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      additionalProperties: true,
+      required: [ "cli_email", "cli_password"],
+      properties: {
+        cli_email: {
+          bsonType: "string",
+          description: "must be a string and is required",
+        },
+        cli_password: {
+          bsonType: "string",
+          description: "must be a string and is required",
+        },
+      },
+    },
+  },
+});
