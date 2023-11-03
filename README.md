@@ -132,37 +132,37 @@ Frontend y la base de datos.
 
 1. El Backend debe implementar control de acceso usando autenticación en dos factores o JWT.
 
-- [x] > `Se utiliza ` **JWT** ` junto con` **Bearer** ` para la autenticacion y validacion del token`
+> - [x]  `Se utiliza ` **JWT** ` junto con` **Bearer** ` para la autenticacion y validacion del token`
 
 2. El Backend debe prevenir peticiones automatizadas.
 
-- [x] > `Se utiliza` **express-rate-limit** `para prevenir cantidad masiva de peticiones`
+> - [x]  `Se utiliza` **express-rate-limit** `para prevenir cantidad masiva de peticiones`
 
 3. Se debe implementar control de versiones usando query string o Headers.
 
-- [x] > `Se utiliza` **express-routes-versioning** `para el versionado de los endpoints`
+> - [x]  `Se utiliza` **express-routes-versioning** `para el versionado de los endpoints`
 
 4. Se debe implementar Arquitectura DTO.
 
-- [x] > `Se utiliza` **express-validator** `para validar las querys u/o parametros que se envian`
+> - [x]  `Se utiliza` **express-validator** `para validar las querys u/o parametros que se envian`
 
 5. Se debe implementar el patrón de diseño Singleton usando Unidades de trabajo según skill de entrenamiento.
 
-- [x] > `Se implementa un único endpoint para cada consulta, cumpliendo así con el patrón Singleton y el principio de una instancia única de función de manejo por solicitud para ese endpoint específico.`
+> - [x]  `Se implementa un único endpoint para cada consulta, cumpliendo así con el patrón Singleton y el principio de una instancia única de función de manejo por solicitud para ese endpoint específico.`
 
 6. Implementar sistema de paginación en las respuestas de tipo Get.
 
-- [x] > `Las consultas traen informacion especifica de lo que se requiere`
+> - [x]  `Las consultas traen informacion especifica de lo que se requiere`
 
 7. Implementar Endpoints que permitan realizar procesos de Actualización, Inserción, Eliminación, Visualización de datos.
 
-- [x] > `Se satisfacen los requerimientos solicitados, y además se ha realizado el manejo CRUD en las colecciones que lo requieren.`
+> - [x]  `Se satisfacen los requerimientos solicitados, y además se ha realizado el manejo CRUD en las colecciones que lo requieren.`
 
 ---
 
 # Consultas requeridas:
 
-1. <a name="consulta1"></a> Listar todas las ventas que se realizaron en el mes de julio de 2023.
+1. [Listar todas las ventas que se realizaron en el mes de julio de 2023.](#consulta1)
 
 2. Seleccionar todos los empleados con sus respectivos cargos y municipios.
 
@@ -220,8 +220,7 @@ Frontend y la base de datos.
 
 ## Ventas
 
-[1. Listar todas las ventas que se realizaron en el mes de julio de 2023.](#consulta1){style="text-decoration: none; color: inherit;"}
-
+<a name="consulta1"></a>  1. Listar todas las ventas que se realizaron en el mes de julio de 2023.
 
 **Detalles de la API**
 
