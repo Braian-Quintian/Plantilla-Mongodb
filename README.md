@@ -7,5 +7,5 @@
 
 `Nota`: porfavor llena los campos vacios con la informacion correspondiente.
 
-![env](./assets/img/configuracion-env.png)
+![env](./frontend/assets/img/configuracion-env.png)
 
