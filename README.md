@@ -250,7 +250,7 @@ Frontend y la base de datos.
 
 **Capturas de Pantalla**
 
-![ventas-fecha-mes](./assets/img/GET-empleados-cargos-municipios.png)
+![empleados-cargos-municipios](./assets/img/GET-empleados-cargos-municipios.png)
 
 
 </details>
