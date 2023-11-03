@@ -234,6 +234,23 @@ Frontend y la base de datos.
 
 ![ventas-fecha-mes](./assets/img/GET-ventas-fecha-mes.png)
 
-`Observacion`: Está solicitud se puede utilizar para obtener las ventas de un año un mes o un dia en especifico
+`Observacion`: Está solicitud se puede utilizar para obtener las ventas de un año o un mes en especifico.
+
+</details>
+
+<details>
+ <summary name="consulta2"> 2. Seleccionar todos los empleados con sus respectivos cargos y municipios. </summary>
+
+
+**Detalles de la API**
+
+- Metodo: `GET`
+- URL: `http://localhost:5050/empleados/cargos-municipios`
+- Version: `1.0.0`
+
+**Capturas de Pantalla**
+
+![ventas-fecha-mes](./assets/img/GET-empleados-cargos-municipios.png)
+
 
 </details>
