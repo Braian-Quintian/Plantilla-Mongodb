@@ -1,12 +1,12 @@
 import express from "express";
 import cors from "cors";
-// import {dynamicRouter} from './dynamicRouter.js';
-import {login} from '../src/security/keys/login.js';
-import {register} from '../src/security/keys/register.js';
+import { login } from "../src/security/keys/login.js";
+import { register } from "../src/security/keys/register.js";
+import dynamicRouter from "./dynamicRouter.js";
 const app = express();
 app.use(express.json());
 app.use(cors());
-app.use("/login",login);
-app.use('/register', register);
-// app.use('/:collection', dynamicRouter);
+app.use("/login", login);
+app.use("/register", register);
+app.use("/:collection", dynamicRouter);
 export default app;
