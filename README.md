@@ -223,10 +223,11 @@ Frontend y la base de datos.
 <details>
  <summary name="consulta1"> 1. Listar todas las ventas que se realizaron en el mes de julio de 2023. </summary>
 
+
 **Detalles de la API**
 
 - Metodo: `GET`
-- URL: `http://localhost:5050/ventas/fecha?año=2023&mes=07&dia=01`
+- URL: `http://localhost:5050/ventas/fecha?año=2023&mes=07`
 - Version: `1.0.0`
 
 **Capturas de Pantalla**
