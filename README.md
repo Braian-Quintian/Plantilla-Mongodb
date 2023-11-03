@@ -218,11 +218,11 @@ Frontend y la base de datos.
 
 # Endpoints
 
+## Ventas
 
 <details>
- <summary>Ventas</summary>
+ <summary name="consulta1"> 1. Listar todas las ventas que se realizaron en el mes de julio de 2023. </summary>
 
-<a name="consulta1"></a> 1. Listar todas las ventas que se realizaron en el mes de julio de 2023.
 **Detalles de la API**
 
 - Metodo: `GET`
