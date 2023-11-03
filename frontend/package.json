@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "start": "nodemon --quiet ./backend/server/server.js",
-    "install": "npm i -E express express-validator express-rate-limit express-routes-versioning @types/express jose mongodb passport passport-http-bearer bcrypt",
-    "install-dev": "npm i -D nodemon",
+    "install": "npm i -E express express-validator express-rate-limit express-routes-versioning jose mongodb passport passport-http-bearer bcrypt",
+    "install-dev": "npm i -D nodemon @types/express @types/passport-http-bearer",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.20",
+    "@types/passport-http-bearer": "^1.0.39",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@vitejs/plugin-react-swc": "^3.3.2",
